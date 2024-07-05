@@ -16,6 +16,7 @@ import {
 } from "./services/cartServices";
 import "react-toastify/dist/ReactToastify.css";
 import CartContext from "./contexts/CartContext";
+import useData from "./hooks/useData";
 
 setAuthToken(getJwt());
 
